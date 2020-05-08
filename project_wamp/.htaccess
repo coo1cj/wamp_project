@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/css/
+RewriteRule ^(.+)$ FrontController.php [QSA,L]

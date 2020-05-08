@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.golbal-header {
+    background: #373737;
+    overflow: hidden;
+    padding: 10px 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.golbal-header div {
+    display: flex;
+}
+
+.divleft {
+    display: flex;
+    border: 1px solid orange;
+    padding: 0 3px;
+    border-radius: 5px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.divright {
+    margin-right: 12px;
+    border: 1px solid #3BD9FF;
+    border-radius: 5px;
+}
+
+#account {
+    color: #3BD9FF;
+}
+
+.divright:hover {
+    border: 1px solid orange;
+    transition: 0.3s;
+}
+
+.divright:hover #account {
+    color: orange;
+    transition: 0.3s;
+}
+
+
+.divright:hover .text-login {
+    color: orange;
+    transition: 0.3s;
+}
+
+.divleft a {
+    float: left;
+    padding: 4px;
+}
+
+.divright a {
+    float: right;
+    padding: 4px;
+}
+
+
+.title {
+    color: orange;
+    align-self: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo-right {
+    display: flex;
+    text-decoration: none;
+}
+
+.text-login {
+    color: #3BD9FF;
+    align-self: center;
+    padding: 0 4px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
